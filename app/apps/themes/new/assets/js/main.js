@@ -14,36 +14,14 @@
 //= require camaleon_cms/bootstrap.min
 //= require moment 
 //= require fullcalendar
+//= require jquery.easing
+//= require jquery.mousewheel
+//= require jquery.contentcarousel
 
 
 
-$(document).ready(function(){
-     var options = {
-     theme: true,
-     header: {
-      left: 'prev,next, today',
-      center: 'title',
-      right: 'month,agendaWeek,agendaDay,agenda'
-     },
-     timeFormat: {
-      agenda: 'h(:mm)t{ - h(:mm)t}',
-      '': 'h(:mm)t{-h(:mm)t }'
-     },
-     monthNames: ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" ], 
-     monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
-     dayNames: [ 'Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
-     dayNamesShort: ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'],
-     buttonText: {
-      today: 'Hoy',
-      prev: 'Ant.',
-      next: 'Sig.',
-      month: 'Mes',
-      week: 'Semana',
-      day: 'Día'
-     },
-    dayClick: function() {
-        console.log($(this[0]).attr('data-date'));
-    }
-    };
-  $('#calendar').fullCalendar(options);
-});
+if (typeof jQuery != 'undefined') {  
+    // jQuery is loaded => print the version
+    alert(jQuery.fn.jquery);
+}
+

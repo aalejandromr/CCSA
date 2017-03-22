@@ -11,7 +11,7 @@
         <div id="navbar-main" class="navbar-collapse collapse">
             <%= raw get_nav_menu('main_menu', 'nav navbar-nav navbar-right') %>
 
-            <ul class="nav navbar-nav navbar-right" style="display:none;">
+            <ul class="nav navbar-nav navbar-right">
                 <% if signin?  %>
                     <li class="dropdown">
                         <a class="dropdown-toggle" href="#"><img src="<%= cama_current_user.decorate.the_avatar %>" style="max-width: 24px; border-radius: 50%" alt=""/> <%= cama_current_user.username %></a>
