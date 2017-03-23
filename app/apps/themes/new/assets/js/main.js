@@ -14,14 +14,6 @@
 //= require camaleon_cms/bootstrap.min
 //= require moment 
 //= require fullcalendar
-//= require jquery.easing
-//= require jquery.mousewheel
+//= require jquery.easing.1.3
+//= require jquery.mousewheel.carousel
 //= require jquery.contentcarousel
-
-
-
-if (typeof jQuery != 'undefined') {  
-    // jQuery is loaded => print the version
-    alert(jQuery.fn.jquery);
-}
-

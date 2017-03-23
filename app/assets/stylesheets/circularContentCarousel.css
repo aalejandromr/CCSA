@@ -2,6 +2,7 @@
 .container-carousel {
 	background-color: #005091;
 	max-height: 400px;
+	margin-top: -400px;
 }
 .ca-container{
 	position:relative;

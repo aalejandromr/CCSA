@@ -87,12 +87,12 @@
                     
                 </div>
             </div>
-
-            <div class="container-carousel full-width">
+            <div class="full-width background-blue" style="height:400px;max-height: 400px;z-index:-1;">  </div>
+            <div class="container-carousel">
             <div class="title center">
                 <h1> Clases en línea </h1>
             </div>
-            <div id="ca-container" class="ca-container ">
+            <div id="ca-container" class="ca-container">
                 <div class="ca-wrapper">
                     <div class="ca-item ca-item-1">
                         <div class="ca-item-main">
@@ -126,7 +126,7 @@
                     <div class="ca-item ca-item-3">
                         <div class="ca-item-main">
                             <div class="ca-icon3"></div>
-                            <h5> Frases Comunes de Inglés </h5>
+                            <h5> Frases Comunes de inglés </h5>
                             <div class="left-align"> <a href="#" class="ca-more"> VER VIDEO </a> </div>
                                 
                         </div>
@@ -137,11 +137,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ca-item ca-item-4">
+                    <div class="ca-item ca-item-2">
                         <div class="ca-item-main">
                             <div class="ca-icon"></div>
                             <h5>
-                                <span>Inglés Básico Grupo 2 Matutino</span>
+                                <span>Inglés Básico Grupo 4 Matutino</span>
                             </h5>
                                 <a href="#" class="ca-more"> VER VIDEO </a>
                         </div>
@@ -155,12 +155,41 @@
                 </div>
             </div>
         </div>
-
+        <div class="full-width background-black padding"> <div class="margin-left col-xs-6">SÍGUENOS <i class="fa fa-facebook-square" aria-hidden="true white"></i> <i class="fa fa-twitter-square white" aria-hidden="true"></i></div> <div class="right-align margin-right"> Galería de Imágenes </div>
+ </div>
+        <div class="programa-becas full-width">
+            <img src="/assets/1793.jpg" width="100%" height="850px">
         </div>
 
+        <div class="full-width background-red center"> <i class="fa fa-bus white" aria-hidden="true"></i> Ruta de buses: B, 2C, 4, 11, 29, 45, 46B, 53, 101D <i class="fa fa-bus white" aria-hidden="true"></i> </div>
+
+        </div>
+        <form accept-charset="UTF-8" action="/plugins/cama_contact_form/save_form" class="railscf-form railscf-form-group" enctype="multipart/form-data" id="edit_plugins_cama_contact_form_cama_contact_form_1" method="post"><div style="display:none"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="1AX7tQ5KLDUAkqVo7eMIiEML2Qja3FQG60m9MBYHTx4=" type="hidden"></div>
+            <input id="id" name="id" value="1" type="hidden">
+            
+            <div class="form-group">
+     <label>Nombre</label>
+    
+    <div><input id="c2" value="" name="fields[c2]" class="form-control " type="text"></div> 
+</div><div class="form-group">
+     <label>Correo</label>
+    
+    <div><input id="c3" value="" name="fields[c3]" class="form-control railscf-field-email" type="email"></div> 
+</div><div class="form-group">
+     <label>Telefono</label>
+    
+    <div><input id="c4" value="" name="fields[c4]" class="form-control " type="text"></div> 
+</div><div class="form-group">
+     <label>Mensaje</label>
+    
+    <div><textarea id="c5" name="fields[c5]" maxlength="500" class="form-control  "></textarea></div> 
+</div>
+                <div class="form-group"><button class="submit_btn btn btn-default pull-right" type="submit">Send</button></div>
+            
+</form>
     </div>
 </section>
-<script type="text/javascript" href="assets/jquery.contentcarousel.js"></script>
+<script type="text/javascript" href="assets/jquery.contentcarousel.javascript"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     var options = {
@@ -192,7 +221,8 @@ $(document).ready(function(){
     };
   $('#calendar').fullCalendar(options);
   console.log($('#ca-container').contentcarousel());
-  $('#ca-container').contentcarousel();
 });
+
+ $('.carousel-inner').carousel({ interval: 10000 });                        
 </script>
 

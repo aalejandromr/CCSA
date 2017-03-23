@@ -215,6 +215,7 @@
 							if( cache.isAnimating ) return false;
 							cache.isAnimating	= true;
 							aux.navigate( -1, $el, $wrapper, settings, cache );
+							console.log($wrapper.find('div.ca-item:gt(' + ( 4  - 1 - 1 ) + ')'));
 						});
 						
 						// navigate right

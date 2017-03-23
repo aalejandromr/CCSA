@@ -43,8 +43,6 @@ gem "camaleon_cms",  '>=2.3.7.1' # Stable versions 2.3.6, 2.2.1, 2.1.1, 2.1.0
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'camaleon_ecommerce', '>= 2.0.0'
-gem 'jquery-easing-rails'
-gem "jquery-mousewheel-rails"
 
 #################### Camaleon CMS include all gems for plugins and themes #################### 
 require './lib/plugin_routes' 
